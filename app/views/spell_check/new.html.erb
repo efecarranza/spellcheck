@@ -1,0 +1,10 @@
+<h1>Spell Check</h1>
+
+<%= form_for @sentence, :as => :post, :url => check_text_path do |f| %>
+
+	<br>
+	Please enter a text, we will tell you if it has any errors: <%= f.text_area :content %>
+	<%= f.submit "Submit" %>
+
+<% end %>
+

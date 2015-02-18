@@ -1,0 +1,2 @@
+module SpellCheckHelper
+end
